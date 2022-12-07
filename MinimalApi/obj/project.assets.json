@@ -846,11 +846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WinForms\\EstagioAuE\\MinimalApi\\MinimalApi.csproj",
+      "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj",
       "projectName": "MinimalApi",
-      "projectPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WinForms\\EstagioAuE\\MinimalApi\\MinimalApi.csproj",
+      "projectPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj",
       "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WinForms\\EstagioAuE\\MinimalApi\\obj\\",
+      "outputPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

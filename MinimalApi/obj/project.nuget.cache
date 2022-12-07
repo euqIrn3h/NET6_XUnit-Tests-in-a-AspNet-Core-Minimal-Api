@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4lz2NImhZ47aZM5JExyU42IeWzMeTp6PkJJATDOU15kDtJa4WA2SCOEdvZIU12fr5Pc6MLU2lri6+7YRZy59sg==",
+  "dgSpecHash": "BYJE8Vt5IuDtbgjjQ5OwY0+OBG+WZwRXMRSadE4+JC64NiS7Af1TmN29v/0u0+JQlOX8EYQr8z9EjREzkOdDPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WinForms\\EstagioAuE\\MinimalApi\\MinimalApi.csproj",
+  "projectFilePath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.11\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.11.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.11\\microsoft.entityframeworkcore.6.0.11.nupkg.sha512",
