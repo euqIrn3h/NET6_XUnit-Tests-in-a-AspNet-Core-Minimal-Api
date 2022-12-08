@@ -4,14 +4,14 @@
     "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj": {
+    "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj",
-        "projectName": "Tests",
-        "projectPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj",
+        "projectName": "MinimalApi",
+        "projectPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,93 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj": {
+                "projectPath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
