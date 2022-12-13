@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 
 // Routes
-app.MapGet("/", () => "Servidor na porta 7173 ");
+app.MapGet("/", () => "Hello World");
 
 app.MapGet("/todo", async ( TodoDb db) =>
 {
@@ -80,3 +80,5 @@ app.MapDelete("/todo/{id}", async (int id, TodoDb db) =>
 
 
 app.Run();
+
+public partial class Program { }
