@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Oc9yPHTY728Tr2rMxTxnLV1hC2dYybIznqan0pIUHAFCgVNyW70Psk+mycDqK1UtDDYJU4yd/eVXdXZ/SADs/A==",
+  "dgSpecHash": "tiLmcTdvtU1GeCNpyT7BcDugSGnMEz1H9c46m17/ou/TwfkVi7ZmjgBdxiCx8QhTA4HlPFC+vZJ3/UfIciTKWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.testplatform.testhost\\16.11.0\\microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\minivalidation\\0.7.0\\minivalidation.0.7.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\moq\\4.18.3\\moq.4.18.3.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",

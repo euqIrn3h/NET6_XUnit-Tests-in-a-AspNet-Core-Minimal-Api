@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MinimalApi.Data;
 using MinimalApi.Models;
+using MiniValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,13 +42,17 @@ app.MapGet("/todo/{id}", async (int id, TodoDb db) =>
         if(todo == null)
             return Results.NotFound();
         return Results.Ok(todo);
-});     
+});
 
 app.MapPost("/todo", async (Todo todo, TodoDb db) =>
 {
+    if (!MiniValidator.TryValidate(todo, out var error))
+        return Results.ValidationProblem(error);
+
     db.Todos.Add(todo);
     await db.SaveChangesAsync();
     return Results.Created($"/todo/{todo.Id}", todo);
+
 });
 
 app.MapPut("/todo/{id}", async (int id, Todo todo, TodoDb db) =>

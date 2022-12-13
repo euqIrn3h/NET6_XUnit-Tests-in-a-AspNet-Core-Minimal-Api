@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BYJE8Vt5IuDtbgjjQ5OwY0+OBG+WZwRXMRSadE4+JC64NiS7Af1TmN29v/0u0+JQlOX8EYQr8z9EjREzkOdDPg==",
+  "dgSpecHash": "hbEU+YJODADjnr/UsEpp/FjT0USzVaLdfNiOuSzZq9bvOdW6V86n4iHFOFgi0UX0gJb2jdyPzr72FLK6zEkNlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\henri\\OneDrive\\Documentos\\Programas\\.NET\\WebApis\\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\\MinimalApi\\MinimalApi.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\minivalidation\\0.7.0\\minivalidation.0.7.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

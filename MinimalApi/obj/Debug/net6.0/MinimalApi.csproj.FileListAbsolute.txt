@@ -66,3 +66,4 @@ C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNe
 C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\MinimalApi\obj\Debug\net6.0\MinimalApi.pdb
 C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\MinimalApi\obj\Debug\net6.0\MinimalApi.genruntimeconfig.cache
 C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\MinimalApi\obj\Debug\net6.0\ref\MinimalApi.dll
+C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\MinimalApi\bin\Debug\net6.0\MiniValidation.dll
