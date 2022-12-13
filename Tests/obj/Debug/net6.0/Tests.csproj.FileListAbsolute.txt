@@ -417,3 +417,4 @@ C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNe
 C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\Tests\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
 C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\Tests\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\Tests\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\Users\henri\OneDrive\Documentos\Programas\.NET\WebApis\XUnit-Tests-in-a-AspNet-Core-Minimal-Api\Tests\bin\Debug\net6.0\MiniValidation.dll
