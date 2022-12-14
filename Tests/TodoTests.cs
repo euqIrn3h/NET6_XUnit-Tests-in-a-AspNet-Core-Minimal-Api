@@ -24,6 +24,15 @@ namespace Tests
         }
 
         [Fact]
+        public async Task Get_Empty_Todo_List()
+        {
+            var result = await Client.GetFromJsonAsync<List<Todo>>("/todo");
+
+            Assert.NotNull(result);
+            Assert.Equal(0, result.Count);
+        }
+
+        [Fact]
         public async Task Create_Todo()
         {
             var result = await Client.PostAsJsonAsync("/todo", new Todo
@@ -37,20 +46,62 @@ namespace Tests
         }
 
         [Fact]
-        public async Task Get_Empty_Todo_List()
-        {
-            var result = await Client.GetFromJsonAsync<List<Todo>>("/todo");
-
-            Assert.NotNull(result);
-            Assert.Equal(0, result.Count);
-        }
-
-        [Fact]
         public async Task Create_Todo_Validate_Object()
         {
             var result = await Client.PostAsJsonAsync("/todo", new Todo());
 
             Assert.Equal(HttpStatusCode.BadRequest, result.StatusCode);
+        }
+
+        [Fact]
+        public async Task Get_One_Item_On_Todo_List()
+        {
+            
+            await Client.PostAsJsonAsync("/todo", new Todo
+            {
+                Name = "Name",
+                IsComplete = true
+            }
+            );
+
+            var result = await Client.GetFromJsonAsync<List<Todo>>("/todo");
+
+            Assert.NotNull (result);
+            Assert.Equal (1, result.Count);
+        }
+
+        [Fact]
+        public async Task Get_By_Id_Todo()
+        {
+            await Client.PostAsJsonAsync("/todo", new Todo
+            {
+                Name = "Name",
+                IsComplete = true
+            }
+            );
+
+            var result = await Client.GetFromJsonAsync<Todo>("/todo/1");
+
+            Assert.NotNull(result);
+            Assert.Equal("Name", result.Name);
+            Assert.Equal(true, result.IsComplete);
+        }
+
+        [Fact]
+        public async Task Update_Todo()
+        {
+            await Client.PostAsJsonAsync("/todo", new Todo
+            {
+                Name = "Name",
+                IsComplete = true
+            }
+            );
+
+            var result = await Client.GetFromJsonAsync<Todo>("/todo/1");
+
+            Assert.NotNull(result);
+            Assert.Equal("Name", result.Name);
+            Assert.Equal(true, result.IsComplete);
         }
 
     }
