@@ -97,11 +97,17 @@ namespace Tests
             }
             );
 
-            var result = await Client.GetFromJsonAsync<Todo>("/todo/1");
+            var result = await Client.PutAsJsonAsync("/todo/1", new Todo
+            {
+                Name= "NameUpdated",
+                IsComplete= false
+            });
 
-            Assert.NotNull(result);
-            Assert.Equal("Name", result.Name);
-            Assert.Equal(true, result.IsComplete);
+            var todo = await Client.GetFromJsonAsync<Todo>("/todo/1");
+
+            Assert.Equal(HttpStatusCode.NoContent, result.StatusCode);
+            Assert.Equal("NameUpdated", todo.Name);
+            Assert.Equal(false, todo.IsComplete);
         }
 
     }
