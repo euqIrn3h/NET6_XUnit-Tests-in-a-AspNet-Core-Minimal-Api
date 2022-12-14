@@ -110,5 +110,24 @@ namespace Tests
             Assert.Equal(false, todo.IsComplete);
         }
 
+        [Fact]
+        public async Task Delete_Todo()
+        {
+            await Client.PostAsJsonAsync("/todo", new Todo
+            {
+                Name = "Name",
+                IsComplete = true
+            }
+            );
+
+            var result = await Client.DeleteAsync("/todo/1");
+
+            var todo = await Client.GetAsync("/todo/1");
+
+            Assert.Equal(HttpStatusCode.NoContent, result.StatusCode);
+            Assert.Equal(HttpStatusCode.NotFound, todo.StatusCode);
+
+        }
+
     }
 }
